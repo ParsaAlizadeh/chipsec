@@ -37,3 +37,18 @@ scripts/bdist.win-amd64/
 
 # Visual Studio Code
 .vscode
+
+# SUT IoT Lab
+/efi_variables*
+/*.bin
+
+# Agent-related files
+.copilot/
+.codex/
+.agy/
+.github-copilot/
+agent_output/
+copilot_*.log
+codex_*.log
+*.agy
+.agents/
