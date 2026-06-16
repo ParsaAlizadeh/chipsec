@@ -76,7 +76,7 @@ def create_efi_disk(filename, startup_nsh=None):
 
         # Copy Chipsec
         print("Copying chipsec to {} ...".format(tmpdir))
-        for extension in (".py", ".xml", ".xsd"):
+        for extension in (".py", ".xml", ".xsd", ".ini", ".json", ".txt"):
             for filepath in CHIPSEC_BASE.glob("**/*" + extension):
                 destination = Path(tmpdir) / "chipsec" / filepath.relative_to(CHIPSEC_BASE)
                 destination.parent.mkdir(parents=True, exist_ok=True)
