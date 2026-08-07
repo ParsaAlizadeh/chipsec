@@ -41,6 +41,7 @@ scripts/bdist.win-amd64/
 # SUT IoT Lab
 /efi_variables*
 /*.bin
+__install__/
 
 # Agent-related files
 .copilot/
