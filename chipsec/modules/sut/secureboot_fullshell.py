@@ -1,5 +1,5 @@
 # CHIPSEC Custom Module for Sharif University IoT Lab
-# Module to check if secureboot is enabled but UEFIShell is bootable, which can be used to bypass
+# Module to check if secureboot is enabled and EFI Shell is bootable, which can be used to bypass
 # secureboot. See CVE-2023-48733.
 # Requirements:
 # - Guest Linux OS running inside QEMU
